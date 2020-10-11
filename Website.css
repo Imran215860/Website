@@ -13,7 +13,7 @@ h1,h2,h3,h4,h5,h6{font-family:'osvald', sans-serif; font-weight: 500;}
   }
 
 .topbarmain{
-  background-color: #f5f5f5;
+  Background-color:#5ff6f6;
   
  width: 1200px;
 }
@@ -136,14 +136,14 @@ border-right: 1px solid #ddd;
   }
   
 #Homeslider{
-  background:green;
+  background-image: url("75107111-business-people-and-technology-concept-happy-businessman-typing-on-computer-keyboard-at-office.jpg");
  padding: 0px;
-  
+width: 1200px;
+background-repeat: no-repeat;
 
- width: 1200px;
 }
 .slidercontant{
-  color: white;
+  color: black;
   
   
   
@@ -792,4 +792,395 @@ transition: .3s;
         transform: translateY(20px);
         opacity: 1;
 
+}
+#project{
+        background: #f5f6f6;
+        padding: 0px;
+}
+.projectWrapper{
+        overflow: hidden;
+        
+}
+.singleProject{
+        width: 350px;
+        float: left;
+        margin-right:30px;
+        position: relative;
+        margin-bottom:30px;
+        overflow: hidden;
+}
+.singleProject:last-child{
+        margin-right:0px;
+}
+.singleProject img{
+        width: 100%;
+}
+.projectInfo{
+        position: absolute;
+        left: 0;
+        bottom:0;
+        width: 100%;
+        padding: 40px 30px;
+        background:linear-gradient(to top, black, transparent 150px);
+        color: white;
+        overflow: hidden;
+        transition: 0.3s;
+}
+.projectMeta{
+        width: 280px;
+        margin-bottom:15px;
+        overflow: hidden;
+}
+.projectMeta a {
+        color: white;
+        font-weight: 600;
+        margin-bottom: 10px;
+        display: block;
+        text-decoration: none;
+        
+        
+}
+#learnmore{
+        display: block;
+        color: white;
+        font-weight: 500;
+        font-size:16px;
+        visibility: hidden;
+        text-decoration: none;
+        transform: translateX(-150px)
+        
+}
+#learnmore i {
+        font-size: 13px;
+        margin-left: 10px;
+}
+.singleProject:hover .projectInfo{
+        padding:40px 30px !important;
+}
+.singleProject:hover #learnmore{
+        visibility: visible;
+        transform: translateX(0px);
+        transition: 0.3s;
+        transition-delay:0.3s;
+        transition-timing-function:cubic-bezier(0, 0.43, 0.15, 1.09);
+        
+}
+.newsWrapper{
+        overflow: hidden;
+}
+
+.singleNews{
+        width: 345px;
+        float: left;
+        margin-right: 30px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+        overflow: hidden;
+}
+
+.singleNews:last-chaild{
+        margin-right: 0px;
+}
+.newsImg img{
+        width: 100%;
+        transition: 0.3s;
+        height: 200px;
+}
+.newsMeta{
+        padding: 30px;
+     border-left: 1px solid #e4e3e3;
+   border-right: 1px solid #e4e3e3;
+    border-bottom: 1px solid #e4e3e3;
+           overflow: hidden;      
+}
+.newsCetagory{
+        margin-bottom:20px;
+        overflow: hidden;
+}
+.newsCetagory a {
+        text-decoration: none;
+        font-weight: 400;
+        color: #444;
+        display: block;
+        font-size: 15px;
+        float: left;
+        width: 120px;
+}
+.newsCetagory a:last-child {
+        margin-left: 25px;
+        
+}
+.newsCetagory a:first-child {
+        margin-right: 15px;
+
+}
+.newsTitle h2 a {
+        color: #333;
+        text-decoration: none;
+        
+}
+ .newsTitle h2 {
+         margin-bottom:12px;
+         
+         
+ }
+ .newsTitle p {
+      margin-bottom:15px;
+      color: #777;
+ }
+ #readmore{
+         color: #fb5200;
+         font-weight: 500;
+         text-decoration: none;
+ }
+ #readmore i{
+         font-size: 12px;
+ }
+ .newsTitle h2 a:hover{
+         color: #fb5200;
+ }
+ .newsCetagory a:last-child:hover {
+         color: #fb5200;
+ 
+ }
+ #footer{
+         width: 1200px;
+         background: #1a1a1a;
+         padding-top: 200px;
+         float: left;
+ }
+ .coppyrightcontainer{
+         overflow: hidden;
+         color: #999;
+         border-top: 1px solid #333;
+ }
+ 
+ .coppyrightcontainer .Container{
+         overflow: hidden;
+ }
+ .coppyrightText{
+         width: 570px;
+         float: left;
+         padding: 25px 0px;
+ }
+ 
+ .coppyrightMenu{
+         width: 570px;
+         float: left;
+ }
+ .coppyrightMenu ul{
+         float: right;
+         overflow: hidden;
+         list-style: none;
+ }
+ .coppyrightMenu ul li{
+         float: left;
+ }
+ .coppyrightMenu ul li a{
+         color: #999;
+         display: block;
+         text-decoration: none;
+         padding:25px 15px;
+ }
+ .fbox{
+         overflow: hidden;
+         float:left;
+         width: 250px;
+         margin-right:30px;
+         color: #999;
+         
+ }
+ .fbox:last-child{
+         margin-right:0px;
+ }
+ .fbox h3{
+       color: white; 
+       margin-bottom:18px;
+ }
+ .fbox p {
+         line-height:23px;
+         font-size: 16px;
+         margin-bottom:20px;
+ }
+ .fboxWrapper{
+         overflow: hidden;
+         margin-bottom:60px;
+ }
+ #Contact{
+         display: block;
+         margin-bottom: 15px;
+         font-size: 16px;
+ }
+ #Contact i{
+         color:#fb5200;
+         margin-right:10px;
+ }
+ #uflink{
+         list-style: none;
+ }
+ #uflink li {
+ line-height:25px;
+ }
+ #uflink li a{
+    color: #999;
+    display: block;
+    text-decoration: none;
+    padding: 7px 0px;
+    border-bottom: 1px dashed #353535; 
+         
+ }
+ #uflink li a i {
+         font-size: 10px;
+         margin-right:5px ;
+ }
+ #uflink li:last-child a {
+         border-bottom:0px;
+ }
+ .fRpost{
+         overflow: hidden;
+         
+ }
+ .fRpostMeta{
+         width: 40px;
+         padding: 10px;
+         background: #313131;
+         border-radius: 3px;
+         color: white;
+         float: left;
+         margin-right: 5px;
+        font-size: 12px;
+         
+ }
+ 
+ 
+ .fRpostTitle{
+         width: 175px;
+         float: left;
+ }
+ .fRpostTitle h3{
+         margin: 0;
+         margin-bottom:10px;
+         font-size: 16px;
+         margin-left: 10px;
+ }
+  .fRpostTitle a{
+          color: #666;
+          text-decoration: none;
+          font-size: 12px;
+          margin-right: 15px;
+          margin-left:10px;
+  }
+  .fRpostMeta span:first-child{
+          font-weight: 800;
+          font-size: 22px;
+          
+  }
+  .fRpostMeta span:last-child{
+          font-size: 9px;
+          font-weight: 700;
+          margin-top: 6px;
+          display: block;
+          line-height: 10px;
+  }
+  .fIcon a{
+       display: block;
+       width: 20px;
+       background: #666;
+       display: grid;
+       place-items: center;
+       padding: 5px;
+       float: left;
+       margin-right: 10px;
+       border-radius: 3px;
+       text-decoration: none;
+       color: white;
+  }
+  #subscribe{
+          overflow: hidden;
+          background: #fb5200;
+          width: 1200px;
+          padding: 5px;
+          float: left;
+          color: white;
+          margin-right:10px;
+          border-radius: 3px;
+          text-decoration: none;
+  }
+  .subBoxesWrapper{
+          overflow-x: hidden;
+          background: #ff5200;
+          border-radius: 3px;
+          margin-bottom:20px;
+  }
+  .subBoxSingle{
+          width: 320px;
+          overflow: hidden;
+          padding: 30px;
+          float:left;
+  }
+  .subBoxSingle:last-child{
+          margin-right:0px;
+  }
+  .subBoxSingle h2{
+          color: white;
+          margin-bottom:20px;
+  }
+  .input{
+          overflow: hidden;
+          position: relative;
+  }
+  
+  .input input:first-child {
+        width: 100%;
+        
+          padding: 15px;
+          border: none;
+          border-bottom-left-radius:50px;
+          border-top-left-radius:50px;
+          font-family: osvald;
+          letter-spacing:1;
+          
+  }
+  #Submit{
+          padding:15px;
+          border: none;
+          background: black;  
+          color: white;
+          font-weight: 800;
+          letter-spacing:1;
+          font-size: 14px;
+          border-radius: 50px;
+          width: 120px;
+          top: 0;
+          right: -18px;
+          position: absolute;
+  }
+  .subfollowIcon{
+          overflow: hidden;
+          
+  }
+.subFollowIcon a i{
+        width: 30px;
+        height: 30px;
+        float: left;
+        border: 1px solid white;
+        display: grid;
+        border-radius:100%;
+        place-items: center;
+        margin-right:15px;
+        color: white;
+        text-decoration: none;
+}
+#subscribe{
+        position: relative;
+        margin-bottom: -165px;
+}
+.subFollowIcon a i:hover{
+        background: white; color:#444;
+}
+.fIcon a i:hover{
+        color: #fb5200;
+        
+        
+        
 }
